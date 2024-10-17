@@ -10,9 +10,6 @@ export default defineConfig({
     plugins: [
         react(),
     ],
-    resolve: {
-        alias: [{ find: /^~/, replacement: '' }],
-    },
     build: {
         outDir: 'build',
         target: 'esnext',
